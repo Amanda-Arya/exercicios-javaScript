@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://th.bing.com/th/id/R.0995df0350e184d78667e424a430815b?rik=ELM6LlMmKe3z1Q&pid=ImgRaw&r=0");
+  background-color: #000000;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #000000;
+  margin: 0 0 5px;
+  font-size: 2rem;
+}
+
+h2 {
+  color: #000000;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+.listaPalavras {
+  margin: 10px;
+  max-height: 250px;
+}
+
+ input {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+}
+
+label{
+  background-color: #da1e26;
+  font-size: 1.2rem;
+}
+button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+ul{
+  list-style-type: none;
+  background-color: #ffffff;
+  opacity: 0.8;
+  font-size: 1.5rem;
+}
+

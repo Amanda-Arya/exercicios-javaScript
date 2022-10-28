@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-color: Cornsilk;
+    background-position: center top ;
+    background-repeat: no-repeat;
+  }
+h1{
+  color: darkslateblue;
+
+}
+#container{
+  background-color: DarkSlateBlue;
+  display: block ;
+  margin: 0 auto;
+  border-radius: 6px;
+  height: 200px;
+  width: max-content;
+  padding: 30px;
+}
+
+label{
+  color: Gold;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+#tentativa{
+  margin-top: 20px;
+  border-radius: 6px;
+  background-color: cornsilk;
+  opacity: 0.8;
+}
+button{
+  border-radius: 4px;
+  border: none;
+  background-color: gold;
+  padding: 8px  16px;
+  font-weight: bold;
+  color: indigo;
+}
+button:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+}
+.resultado{
+  color: #fff;
+}
